@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioLab Didáctico</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PANTALLA INICIO -->
+    <section id="home-screen" class="active">
+
+        <h1>Biología Celular</h1>
+
+        <p>
+            Selecciona un módulo para comenzar:
+        </p>
+
+        <div class="menu-grid">
+
+            <button onclick="startModule('celular')">
+                Célula y Moléculas
+            </button>
+
+            <button onclick="startModule('mitosis')">
+                Mitosis y Meiosis
+            </button>
+
+            <button onclick="startModule('dominios')">
+                Dominios de la Vida
+            </button>
+
+            <button onclick="startModule('ecosistemas')">
+                Biodiversidad
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- QUIZ -->
+    <section id="quiz-screen" class="hidden">
+
+        <!-- VOLVER -->
+        <button class="back-btn" onclick="goHome()">
+            ← Volver
+        </button>
+
+        <!-- TEMA -->
+        <h2 id="tema-titulo"></h2>
+
+        <!-- INFORMACIÓN -->
+        <div id="info-container"></div>
+       
+
+    <div id="texto"></div>
+
+
+
+        <!-- MULTIMEDIA -->
+        <div id="media-container"></div>
+        
+
+        <!-- PREGUNTA -->
+        <div id="question-container">
+
+            <h2 id="question-text"></h2>
+
+            <div id="answer-buttons"
+                 class="btn-grid">
+            </div>
+
+        </div>
+
+        <!-- SIGUIENTE -->
+        <button id="next-btn"
+                class="hidden">
+
+            Siguiente →
+
+        </button>
+
+    </section>
+
+    <script src="logica.js"></script>
+
+</body>
+</html>
