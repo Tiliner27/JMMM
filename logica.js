@@ -1036,7 +1036,7 @@ Sin estos procesos la vida multicelular sería imposible.
                 correct: false, 
                 explanation: 'Esta cantidad equivaldría a un estado haploide (n = 12), el cual es el producto típico de la reducción meiótica, no de la mitosis corporativa.' 
             },
-            { 
+           { 
                 text: '24 cromosomas', 
                 correct: true, 
                 explanation: 'La mitosis es una división ecuacional conservadora, lo que significa que mantiene idéntico el número cromosómico original (2n = 24) en ambas células hijas.' 
@@ -1053,7 +1053,7 @@ Sin estos procesos la vida multicelular sería imposible.
             }
         ]
     },
-{
+    {
         // ---------- PREGUNTA 9 ----------
         tema: "Célula y Moléculas",
         hint: 'Una de ellas requiere depositar vesículas llenas de carbohidratos complejos en el centro celular debido a la presencia de una estructura externa rígida.',
@@ -1103,7 +1103,7 @@ Sin estos procesos la vida multicelular sería imposible.
             { 
                 text: 'Una duplicación inmediata de la tasa de mutación en las bases nitrogenadas del ADN', 
                 correct: false, 
-                explanation: 'Los errores del huso afectan la distribución física de cromosomas enteros, no la secuencia molecular química interna de los nucleótidos individuales.' 
+                explanation: 'Los errores del huso affectan la distribución física de cromosomas enteros, no la secuencia molecular química interna de los nucleótidos individuales.' 
             },
             { 
                 text: 'La transformación instantánea de células eucariotas en procariotas funcionales', 
@@ -1111,354 +1111,93 @@ Sin estos procesos la vida multicelular sería imposible.
                 explanation: 'Un error de división celular no puede cambiar de manera radical la organización estructural evolutiva ni los organelos internos de una célula.' 
             },
             { 
-                text: 'La inactivación absoluta de todas las enzimas mitocondriales productoras de energía', 
+                text: 'La inclusión de todas las enzimas mitocondriales productoras de energía', 
                 correct: false, 
                 explanation: 'La no disyunción cromosómica afecta el núcleo y el cariotipo, pero no destruye los complejos enzimáticos metabólicos de las mitocondrias de forma directa.' 
             }
         ]
-    },
+    }
 ],
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // 🌍 SECCIÓN: DOMINIOS DE LA VIDA
 // 🌍 SECCIÓN: DOMINIOS DE LA VIDA
 dominios: [
-
-{
-    tema: "Dominios de la Vida",
-
-    informacion: {
-        titulo: "🌎 Los Tres Dominios de la Vida",
-
-        texto: `
-
-# 🧬 ¿Qué son los dominios de la vida?
-
-Los dominios son la categoría más grande utilizada para clasificar a todos los seres vivos del planeta.
-
-Actualmente existen tres dominios principales:
-
-* 🦠 Bacteria
-* 🔥 Archaea
-* 🌱 Eukarya
-
-Esta clasificación se basa en características celulares y genéticas.
-
-<br><br><br>
-
----
-
-# 🦠 Dominio Bacteria
-
-Las bacterias son organismos procariotas muy pequeños y abundantes.
-
-## Características:
-
-* No poseen núcleo.
-* Tienen pared celular con peptidoglicano.
-* Viven en agua, suelo y organismos vivos.
-* Algunas son beneficiosas y otras causan enfermedades.
-
-<br><br><br>
-
----
-
-# 🔥 Dominio Archaea
-
-Las arqueas son microorganismos procariotas capaces de sobrevivir en ambientes extremos.
-
-## Tipos:
-
-* 🌋 Termófilos → viven en altas temperaturas.
-* 🧂 Halófilos → viven en ambientes muy salados.
-* 💨 Metanógenos → producen metano sin oxígeno.
-
-## Características:
-
-* No poseen peptidoglicano.
-* Tienen membranas especiales.
-* Resisten condiciones extremas.
-
-<br><br><br>
-
----
-
-# 🌱 Dominio Eukarya
-
-Este dominio incluye organismos con células complejas.
-
-## Características:
-
-* Poseen núcleo verdadero.
-* Tienen organelos especializados.
-* Son más grandes y complejos.
-
-## Organismos:
-
-* 🐾 Animales
-* 🌿 Plantas
-* 🍄 Hongos
-* 🦠 Protistas
-
-<br><br><br>
-
----
-
-# 🔬 Diferencia principal entre procariotas y eucariotas
-
-## Procariotas
-
-* ADN libre en el citoplasma.
-* No tienen núcleo.
-* Son más simples.
-
-## Eucariotas
-
-* ADN protegido dentro de un núcleo.
-* Tienen organelos membranosos.
-* Son más complejas.
-
-<br><br><br>
-
----
-
-# 🧪 Peptidoglicano
-
-El peptidoglicano es una sustancia presente en la pared celular bacteriana.
-
-## Importancia:
-
-* Protege a la bacteria.
-* Mantiene la forma celular.
-* Ayuda a evitar daños.
-
-Muchos antibióticos atacan esta estructura.
-
-<br><br><br>
-
----
-
-# 🧬 Carl Woese y los Tres Dominios
-
-En 1977 el microbiólogo Carl Woese revolucionó la biología usando ARN ribosomal 16S para clasificar organismos.
-
-Gracias a sus investigaciones descubrió que las Archaea eran muy diferentes de las bacterias comunes.
-
-## Importancia:
-
-* Creó el sistema de los tres dominios.
-* Modernizó la clasificación biológica.
-* Fundó la taxonomía molecular.
-
-<br><br><br>
-
----
-
-# 🌎 Importancia de los dominios
-
-La clasificación ayuda a comprender:
-
-* El origen de la vida.
-* La evolución biológica.
-* Las relaciones genéticas.
-* La biodiversidad del planeta.
-
-        `,
-        imagen: 'Img/dominios.png'
+    {
+        tema: "Dominios de la Vida",
+        informacion: {
+            titulo: "🌎 Los Tres Dominios de la Vida",
+            texto: `\n# 🧬 ¿Qué son los dominios de la vida?\nLos dominios son la categoría más grande utilizada para clasificar a todos los seres vivos del planeta.\nActualmente existen tres dominios principales:\n* 🦠 Bacteria\n* 🔥 Archaea\n* 🌱 Eukarya\nEsta clasificación se basa en características celulares y genéticas.\n<br><br><br>\n---\n# 🦠 Dominio Bacteria\nLas bacterias son organismos procariotas muy pequeños y abundantes.\n## Características:\n* No poseen núcleo.\n* Tienen pared celular con peptidoglicano.\n* Viven en agua, suelo y organismos vivos.\n* Algunas son beneficiosas y otras causan enfermedades.\n<br><br><br>\n---\n# 🔥 Dominio Archaea\nLas arqueas son microorganismos procariotas capaces de sobrevivir en ambientes extremos.\n## Tipos:\n* 🌋 Termófilos → viven en altas temperaturas.\n* 🧂 Halófilos → viven en ambientes muy salados.\n* 💨 Metanógenos → producen metano sin oxígeno.\n## Características:\n* No poseen peptidoglicano.\n* Tienen membranas especiales.\n* Resisten condiciones extremas.\n<br><br><br>\n---\n# 🌱 Dominio Eukarya\nEste dominio incluye organismos con células complejas.\n## Características:\n* Poseen núcleo verdadero.\n* Tienen organelos especializados.\n* Son más grandes y complejos.\n## Organismos:\n* 🐾 Animales\n* 🌿 Plantas\n* 🍄 Hongos\n* 🦠 Protistas\n<br><br><br>\n---\n# 🔬 Diferencia principal entre procariotas y eucariotas\n## Procariotas\n* ADN libre en el citoplasma.\n* No tienen núcleo.\n* Son más simples.\n## Eucariotas\n* ADN protegido dentro de un núcleo.\n* Tienen organelos membranosos.\n* Son más complejas.\n<br><br><br>\n---\n# 🧪 Peptidoglicano\nEl peptidoglicano es una sustancia presente en la pared celular bacteriana.\n## Importancia:\n* Protege a la bacteria.\n* Mantiene la forma celular.\n* Ayuda a evitar daños.\nMuchos antibióticos atacan esta estructura.\n<br><br><br>\n---\n# 🧬 Carl Woese y los Tres Dominios\nEn 1977 el microbiólogo Carl Woese revolucionó la biología usando ARN ribosomal 16S para clasificar organismos.\nGracias a sus investigaciones descubrió que las Archaea eran muy diferentes de las bacterias comunes.\n## Importancia:\n* Creó el sistema de los tres dominios.\n* Modernizó la clasificación biológica.\n* Fundó la taxonomía molecular.\n<br><br><br>\n---\n# 🌎 Importancia de los dominios\nLa clasificación ayuda a comprender:\n* El origen de la vida.\n* La evolución biológica.\n* Las relaciones genéticas.\n* La biodiversidad del planeta.\n`,
+            imagen: 'Img/dominios.png'
+        },
+        question: "¿Qué dominio incluye organismos extremófilos que viven en fuentes termales o lagos salados?",
+        hint: "Este dominio incluye halófilos y termófilos.",
+        media: {
+            type: 'image',
+            url: 'Img/archea.png'
+        },
+        answers: [
+            { text: 'Eukarya', correct: false, explanation: 'Los organismos eucariotas son sensibles a condiciones extremas.' },
+            { text: 'Archaea', correct: true, explanation: 'Las arqueas pueden vivir en ambientes extremos gracias a sus membranas especiales.' },
+            { text: 'Bacteria', correct: false, explanation: 'Las bacterias comunes no suelen dominar ambientes extremos.' }
+        ]
     },
-
-    question: "¿Qué dominio incluye organismos extremófilos que viven en fuentes termales o lagos salados?",
-
-    hint: "Este dominio incluye halófilos y termófilos.",
-
-    media: {
-        type: 'image',
-        url: 'Img/archea.png'
+    {
+        tema: "Dominios de la Vida",
+        hint: "Este científico utilizó ARN ribosomal 16S.",
+        question: "¿Quién propuso el sistema de los tres dominios basado en ARN ribosomal 16S?",
+        media: {
+            type: 'image',
+            url: 'Img/carl.jpg'
+        },
+        answers: [
+            { text: 'Charles Darwin', correct: false, explanation: 'Darwin propuso la teoría de la evolución por selección natural.' },
+            { text: 'Carl Woese', correct: true, explanation: 'Carl Woese descubrió el dominio Archaea y propuso los tres dominios.' },
+            { text: 'Robert Whittaker', correct: false, explanation: 'Whittaker propuso el sistema de los cinco reinos.' },
+            { text: 'Lynn Margulis', correct: false, explanation: 'Margulis desarrolló la teoría endosimbiótica.' }
+        ]
     },
-
-    answers: [
-        {
-            text: 'Eukarya',
-            correct: false,
-            explanation: 'Los organismos eucariotas son sensibles a condiciones extremas.'
+    {
+        tema: "Dominios de la Vida: Eukarya",
+        hint: "Sus células poseen núcleo verdadero.",
+        question: "¿Cuál de los siguientes reinos pertenece exclusivamente al dominio Eukarya?",
+        media: {
+            type: 'image',
+            url: 'Img/eukarya.png'
         },
-
-        {
-            text: 'Archaea',
-            correct: true,
-            explanation: 'Las arqueas pueden vivir en ambientes extremos gracias a sus membranas especiales.'
-        },
-
-        {
-            text: 'Bacteria',
-            correct: false,
-            explanation: 'Las bacterias comunes no suelen dominar ambientes extremos.'
-        }
-    ]
-},
-
-// ✅ PREGUNTA 2
-{
-    tema: "Dominios de la Vida",
-
-    hint: "Este científico utilizó ARN ribosomal 16S.",
-
-    question: "¿Quién propuso el sistema de los tres dominios basado en ARN ribosomal 16S?",
-
-    media: {
-        type: 'image',
-        url: 'Img/carl.jpg'
+        answers: [
+            { text: 'Cyanobacteria', correct: false, explanation: 'Las cyanobacterias pertenecen al dominio Bacteria.' },
+            { text: 'Methanogens', correct: false, explanation: 'Los metanógenos pertenecen al dominio Archaea.' },
+            { text: 'Fungi (Hongos)', correct: true, explanation: 'Los hongos forman parte del dominio Eukarya.' }
+        ]
     },
-
-    answers: [
-        {
-            text: 'Charles Darwin',
-            correct: false,
-            explanation: 'Darwin propuso la teoría de la evolución por selección natural.'
+    {
+        tema: "Dominios de la Vida",
+        hint: "La diferencia está en dónde se encuentra el ADN.",
+        question: "¿Qué característica diferencia al dominio Eukarya de Bacteria y Archaea?",
+        media: {
+            type: 'image',
+            url: 'Img/nucleo.png'
         },
-
-        {
-            text: 'Carl Woese',
-            correct: true,
-            explanation: 'Carl Woese descubrió el dominio Archaea y propuso los tres dominios.'
-        },
-
-        {
-            text: 'Robert Whittaker',
-            correct: false,
-            explanation: 'Whittaker propuso el sistema de los cinco reinos.'
-        },
-
-        {
-            text: 'Lynn Margulis',
-            correct: false,
-            explanation: 'Margulis desarrolló la teoría endosimbiótica.'
-        }
-    ]
-},
-
-// ✅ PREGUNTA 3
-{
-    tema: "Dominios de la Vida: Eukarya",
-
-    hint: "Sus células poseen núcleo verdadero.",
-
-    question: "¿Cuál de los siguientes reinos pertenece exclusivamente al dominio Eukarya?",
-
-    media: {
-        type: 'image',
-        url: 'Img/eukarya.png'
+        answers: [
+            { text: 'Presencia de una membrana nuclear', correct: true, explanation: 'Los eucariotas poseen núcleo verdadero protegido por membrana.' },
+            { text: 'Presencia de ADN', correct: false, explanation: 'Todos los seres vivos poseen ADN.' },
+            { text: 'Capacidad de reproducción', correct: false, explanation: 'Todos los organismos vivos pueden reproducirse.' }
+        ]
     },
-
-    answers: [
-        {
-            text: 'Cyanobacteria',
-            correct: false,
-            explanation: 'Las cyanobacterias pertenecen al dominio Bacteria.'
+    {
+        tema: "Dominios de la Vida: Bacteria",
+        hint: "Es un componente exclusivo de la pared bacteriana.",
+        question: "¿Qué dominio posee peptidoglicano en su pared celular?",
+        media: {
+            type: 'image',
+            url: 'Img/bacteria.jpg'
         },
-
-        {
-            text: 'Methanogens',
-            correct: false,
-            explanation: 'Los metanógenos pertenecen al dominio Archaea.'
-        },
-
-        {
-            text: 'Fungi (Hongos)',
-            correct: true,
-            explanation: 'Los hongos forman parte del dominio Eukarya.'
-        }
-    ]
-},
-
-// ✅ PREGUNTA 4
-{
-    tema: "Dominios de la Vida",
-
-    hint: "La diferencia está en dónde se encuentra el ADN.",
-
-    question: "¿Qué característica diferencia al dominio Eukarya de Bacteria y Archaea?",
-
-    media: {
-        type: 'image',
-        url: 'Img/nucleo.png'
+        answers: [
+            { text: 'Bacteria', correct: true, explanation: 'Las bacterias poseen paredes celulares con peptidoglicano.' },
+            { text: 'Archaea', correct: false, explanation: 'Las arqueas no poseen peptidoglicano.' },
+            { text: 'Eukarya', correct: false, explanation: 'Los eucariotas usan otros materiales como celulosa o quitina.' }
+        ]
     },
-
-    answers: [
-        {
-            text: 'Presencia de una membrana nuclear',
-            correct: true,
-            explanation: 'Los eucariotas poseen núcleo verdadero protegido por membrana.'
-        },
-
-        {
-            text: 'Presencia de ADN',
-            correct: false,
-            explanation: 'Todos los seres vivos poseen ADN.'
-        },
-
-        {
-            text: 'Capacidad de reproducción',
-            correct: false,
-            explanation: 'Todos los organismos vivos pueden reproducirse.'
-        }
-    ]
-},
-
-// ✅ PREGUNTA 5
-{
-    tema: "Dominios de la Vida: Bacteria",
-
-    hint: "Es un componente exclusivo de la pared bacteriana.",
-
-    question: "¿Qué dominio posee peptidoglicano en su pared celular?",
-
-    media: {
-        type: 'image',
-        url: 'Img/bacteria.jpg'
-    },
-
-    answers: [
-        {
-            text: 'Bacteria',
-            correct: true,
-            explanation: 'Las bacterias poseen paredes celulares con peptidoglicano.'
-        },
-
-        {
-            text: 'Archaea',
-            correct: false,
-            explanation: 'Las arqueas no poseen peptidoglicano.'
-        },
-
-        {
-            text: 'Eukarya',
-            correct: false,
-            explanation: 'Los eucariotas usan otros materiales como celulosa o quitina.'
-        }
-    ]
-},
-{
+    {
         // ---------- PREGUNTA 6 ----------
         tema: "Célula y Moléculas",
         hint: 'Los virus son considerados agentes infecciosos acelulares parásitos obligatorios; requieren de las células de los tres dominios para poder replicarse.',
@@ -1468,30 +1207,13 @@ La clasificación ayuda a comprender:
             url: 'Img/vir.jpg'
         },
         answers: [
-            { 
-                text: 'Porque son demasiado grandes para ser clasificados junto a organismos procariotas pequeños', 
-                correct: false, 
-                explanation: 'Los virus son en realidad muchísimo más pequeños que cualquier bacteria o célula eucariota promedio.' 
-            },
-            { 
-                text: 'Porque carecen de estructura celular, metabolismo propio y no poseen el ARN ribosomal utilizado para trazar el árbol filogenético', 
-                correct: true, 
-                explanation: 'El sistema de Woese clasifica la vida celular basándose en los componentes de los ribosomas. Al no tener células, ribosomas ni metabolismo autónomo, los virus quedan fuera del árbol de la vida celular.' 
-            },
-            { 
-                text: 'Porque todos los virus se extinguieron antes de que se diseñara la clasificación moderna', 
-                correct: false, 
-                explanation: 'Los virus están plenamente activos y presentes en la actualidad, infectando a animales, plantas, bacterias y arqueas constantemente.' 
-            },
-            { 
-                text: 'Porque pertenecen a un dominio secreto llamado Reino Fungi alternativo', 
-                correct: false, 
-                explanation: 'Fungi es el reino de los hongos verdaderos dentro de Eukarya, con el cual los virus no tienen ninguna relación estructural.' 
-            }
+            { text: 'Porque son demasiado grandes para ser clasificados junto a organismos procariotas pequeños', correct: false, explanation: 'Los virus son en realidad muchísimo más pequeños que cualquier bacteria o célula eucariota promedio.' },
+            { text: 'Porque carecen de estructura celular, metabolismo propio y no poseen el ARN ribosomal utilizado para trazar el árbol filogenético', correct: true, explanation: 'El sistema de Woese clasifica la vida celular basándose en los componentes de los ribosomas. Al no tener células, ribosomas ni metabolismo autónomo, los virus quedan fuera del árbol de la vida celular.' },
+            { text: 'Porque todos los virus se extinguieron antes de que se diseñara la clasificación moderna', correct: false, explanation: 'Los virus están plenamente activos y presentes en la actualidad, infectando a animales, plantas, bacterias y arqueas constantemente.' },
+            { text: 'Porque pertenecen a un dominio secreto llamado Reino Fungi alternativo', correct: false, explanation: 'Fungi es el reino de los hongos verdaderos dentro de Eukarya, con el cual los virus no tienen ninguna relación estructural.' }
         ]
     },
-
-{
+    {
         // ---------- PREGUNTA 7 ----------
         tema: "Célula y Moléculas",
         hint: 'El sufijo \'-filo\' proviene del griego y significa \'amante de\' o \'afinidad por\'. Son literalmente amantes de las condiciones ambientales extremas.',
@@ -1501,242 +1223,79 @@ La clasificación ayuda a comprender:
             url: 'Img/ext.jpg'
         },
         answers: [
-            { 
-                text: 'A organismos que solo pueden sobrevivir si consumen nutrientes extremadamente caros en laboratorios', 
-                correct: false, 
-                explanation: 'Muchos extremófilos son quimioautótrofos simples que viven de minerales básicos, gases inertes o sales elementales abundantes en la naturaleza.' 
-            },
-            { 
-                text: 'A seres capaces de desarrollarse óptimamente en condiciones físicas o químicas extremas (temperatura, presión, acidez, salinidad) intolerables para la mayoría de los seres vivos', 
-                correct: true, 
-                explanation: 'Viven en lugares como géiseres hirvientes, fondos oceánicos con presiones aplastantes o lagos alcalinos donde las células normales se desnaturalizarían o romperían al instante.' 
-            },
-            { 
-                text: 'A células que tienen una forma física geométrica de estrella extremadamente rara bajo el microscopio', 
-                correct: false, 
-                explanation: 'Aunque hay algunas arqueas cuadradas o irregulares, el término define su adaptación ambiental y ecológica, no una morfología visual fija.' 
-            },
-            { 
-                text: 'A organismos del dominio Bacteria que causan mutaciones instantáneas extremas en humanos', 
-                correct: false, 
-                explanation: 'No alteran el ADN de las personas de forma directa ni están asociados con brotes epidémicos mutogénicos masivos en la población.' 
-            }
+            { text: 'A organismos que solo pueden sobrevivir si consumen nutrientes extremadamente caros en laboratorios', correct: false, explanation: 'Muchos extremófilos son quimioautótrofos simples que viven de minerales básicos, gases inertes o sales elementales abundantes en la naturaleza.' },
+            { text: 'A seres capaces de desarrollarse óptimamente en condiciones físicas o químicas extremas (temperatura, presión, acidez, salinidad) intolerables para la mayoría de los seres vivos', correct: true, explanation: 'Viven en lugares como géiseres hirvientes, fondos oceánicos con presiones aplastantes o lagos alcalinos donde las células normales se desnaturalizarían o romperían al instante.' },
+            { text: 'A células que tienen una forma física geométrica de estrella extremadamente rara bajo el microscopio', correct: false, explanation: 'Aunque hay algunas arqueas cuadradas o irregulares, el término define su adaptación ambiental y ecológica, no una morfología visual fija.' },
+            { text: 'A organismos del dominio Bacteria que causan mutaciones instantáneas extremas en humanos', correct: false, explanation: 'No alteran el ADN de las personas de forma directa ni están asociados con brotes epidémicos mutogénicos masivos en la población.' }
         ]
-    },
+    }
 ],
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //  Ecosistemas
 ecosistemas: [
-
-    // ---------- PREGUNTA 1 ----------
     {
         tema: "Biodiversidad",
-
         informacion: {
-
             titulo: "¿Qué es la biodiversidad?",
-
-            texto: `
-                La biodiversidad es la gran variedad de seres vivos que existen en el planeta Tierra. Incluye animales, plantas, hongos, bacterias y microorganismos que habitan en diferentes ecosistemas como bosques, selvas, mares, desiertos, ríos y montañas. Cada especie cumple una función importante dentro de la naturaleza y ayuda a mantener el equilibrio ecológico del planeta.
-
-La biodiversidad se divide en tres niveles principales:
-
-* Diversidad genética
-* Diversidad de especies
-* Diversidad de ecosistemas
-
-La biodiversidad es fundamental para la vida humana porque proporciona alimentos, medicinas, agua limpia y oxígeno.
-
-Actualmente se encuentra amenazada por actividades humanas como la deforestación, la contaminación y el cambio climático.
-
-            `,
-
+            texto: `\nLa biodiversidad es la gran variedad de seres vivos que existen en el planeta Tierra. Incluye animales, plantas, hongos, bacterias y microorganismos que habitan en diferentes ecosistemas como bosques, selvas, mares, desiertos, ríos y montañas. Cada especie cumple una función importante dentro de la naturaleza y ayuda a mantener el equilibrio ecológico del planeta.\n\nLa biodiversidad se divide en tres niveles principales:\n\n* Diversidad genética\n* Diversidad de especies\n* Diversidad de ecosistemas\n\nLa biodiversidad es fundamental para la vida humana porque proporciona alimentos, medicinas, agua limpia y oxígeno.\n\nActualmente se encuentra amenazada por actividades humanas como la deforestación, la contaminación y el cambio climático.\n`,
             imagen: 'Img/Biodiversidad.png'
         },
-
         hint: 'Este concepto incluye genes, especies y ecosistemas completos.',
-
-        question:
-        "¿Cómo se define formalmente el concepto de biodiversidad?",
-
+        question: "¿Cómo se define formalmente el concepto de biodiversidad?",
         media: {
             type: 'image',
             url: 'Img/tipos.png'
         },
-
         answers: [
-            { 
-                text: 'A la cantidad total de agua y minerales de un ecosistema', 
-                correct: false,
-                explanation: 'Eso corresponde a factores abióticos del ambiente, no a la diversidad biológica.'
-            },
-
-            { 
-                text: 'A la amplia variedad de seres vivos, sus genes y ecosistemas', 
-                correct: true,
-                explanation: 'La biodiversidad incluye la variedad de especies, la diversidad genética y los ecosistemas donde habitan.'
-            },
-
-            { 
-                text: 'Al número de árboles sembrados en ciudades', 
-                correct: false,
-                explanation: 'La reforestación urbana no representa toda la biodiversidad natural.'
-            },
-
-            { 
-                text: 'A la contaminación producida por las industrias', 
-                correct: false,
-                explanation: 'La contaminación afecta negativamente a la biodiversidad, pero no la define.'
-            }
+            { text: 'A la cantidad total de agua y minerales de un ecosistema', correct: false, explanation: 'Eso corresponde a factores abióticos del ambiente, no a la diversidad biológica.' },
+            { text: 'A la amplia variedad de seres vivos, sus genes y ecosistemas', correct: true, explanation: 'La biodiversidad incluye la variedad de especies, la diversidad genética y los ecosistemas donde habitan.' },
+            { text: 'Al número de árboles sembrados en ciudades', correct: false, explanation: 'La reforestación urbana no representa toda la biodiversidad natural.' },
+            { text: 'A la contaminación producida por las industrias', correct: false, explanation: 'La contaminación afecta negativamente a la biodiversidad, pero no la define.' }
         ]
     },
-
-
-
-    // ---------- PREGUNTA 2 ----------
     {
         tema: "Biodiversidad genética",
-
         informacion: {
-
             titulo: "Ecosistemas acuáticos",
-
-            texto: `
-               Los ecosistemas acuáticos son ambientes donde los seres vivos dependen principalmente del agua para sobrevivir.
-
-Existen ecosistemas de agua salada como mares y océanos, y ecosistemas de agua dulce como ríos, lagos y lagunas.
-
-Estos ecosistemas albergan miles de especies y ayudan a regular el clima del planeta.
-
-También proporcionan alimentos, agua y recursos importantes para la humanidad.
-
-            `,
-
+            texto: `\nLos ecosistemas acuáticos son ambientes donde los seres vivos dependen principalmente del agua para sobrevivir.\n\nExisten ecosistemas de agua salada como mares y océanos, y ecosistemas de agua dulce como ríos, lagos y lagunas.\n\nEstos ecosistemas albergan miles de especies y ayudan a regular el clima del planeta.\n\nTambién proporcionan alimentos, agua y recursos importantes para la humanidad.\n`,
             imagen: 'Img/EcosistemaA.png'
         },
-
         hint: 'Permite que las especies puedan adaptarse y resistir enfermedades.',
-
-        question:
-        "¿Qué término describe la variabilidad hereditaria entre individuos de una misma especie?",
-
+        question: "¿Qué término describe la variabilidad hereditaria entre individuos de una misma especie?",
         media: {
             type: 'image',
-           url: 'Img/tipos.png'
+            url: 'Img/tipos.png'
         },
-
         answers: [
-            { 
-                text: 'Diversidad ecosistémica', 
-                correct: false,
-                explanation: 'La diversidad ecosistémica se refiere a distintos hábitats y ecosistemas.'
-            },
-
-            { 
-                text: 'Diversidad genética', 
-                correct: true,
-                explanation: 'La diversidad genética corresponde a las diferencias en genes y alelos dentro de una especie.'
-            },
-
-            { 
-                text: 'Diversidad de filums', 
-                correct: false,
-                explanation: 'Los filums son categorías taxonómicas amplias, no variaciones genéticas.'
-            },
-
-            { 
-                text: 'Diversidad alfa nominal', 
-                correct: false,
-                explanation: 'La diversidad alfa mide especies presentes en un área específica.'
-            }
+            { text: 'Diversidad ecosistémica', correct: false, explanation: 'La diversidad ecosistémica se refiere a distintos hábitats y ecosistemas.' },
+            { text: 'Diversidad genética', correct: true, explanation: 'La diversidad genética corresponde a las diferencias en genes y alelos dentro de una especie.' },
+            { text: 'Diversidad de filums', correct: false, explanation: 'Los filums son categorías taxonómicas amplias, no variaciones genéticas.' },
+            { text: 'Diversidad alfa nominal', correct: false, explanation: 'La diversidad alfa mide especies presentes en un área específica.' }
         ]
     },
-
-
-
-    // ---------- PREGUNTA 3 ----------
     {
         tema: "Cadena alimenticia",
-
         informacion: {
-
             titulo: "¿Cómo funciona la cadena alimenticia?",
-
-            texto: `
-              La cadena alimenticia representa cómo los seres vivos obtienen energía dentro de un ecosistema.
-
-Las plantas son productores porque fabrican su alimento mediante la fotosíntesis.
-
-Los herbívoros consumen plantas y los carnívoros se alimentan de otros animales.
-
-Finalmente, los descomponedores reciclan nutrientes y permiten reiniciar el ciclo de la vida.
-
-            `,
-
+            texto: `\nLa cadena alimenticia representa cómo los seres vivos obtienen energía dentro de un ecosistema.\n\nLas plantas son productores porque fabrican su alimento mediante la fotosíntesis.\n\nLos herbívoros consumen plantas y los carnívoros se alimentan de otros animales.\n\nFinalmente, los descomponedores reciclan nutrientes y permiten reiniciar el ciclo de la vida.\n`,
             imagen: 'Img/CadenaA.png'
         },
-
         hint: 'Estas especies solo existen naturalmente en una región específica del planeta.',
-
-        question:
-        "¿Cómo se denomina a una especie exclusiva de una región geográfica determinada?",
-
+        question: "¿Cómo se denomina a una especie exclusiva de una región geográfica determinada?",
         media: {
             type: 'image',
             url: 'Img/plantas.png'
         },
-
         answers: [
-            { 
-                text: 'Especie exótica', 
-                correct: false,
-                explanation: 'Las especies exóticas son introducidas fuera de su hábitat natural.'
-            },
-
-            { 
-                text: 'Especie cosmopolita', 
-                correct: false,
-                explanation: 'Las especies cosmopolitas habitan en muchas regiones del mundo.'
-            },
-
-            { 
-                text: 'Especie endémica', 
-                correct: true,
-                explanation: 'Las especies endémicas solo existen de forma natural en una región específica.'
-            },
-
-            { 
-                text: 'Especie invasora', 
-                correct: false,
-                explanation: 'Las especies invasoras dañan ecosistemas al expandirse fuera de su lugar original.'
-            }
+            { text: 'Especie exótica', correct: false, explanation: 'Las especies exóticas son introducidas fuera de su hábitat natural.' },
+            { text: 'Especie cosmopolita', correct: false, explanation: 'Las especies cosmopolitas habitan en muchas regiones del mundo.' },
+            { text: 'Especie endémica', correct: true, explanation: 'Las especies endémicas solo existen de forma natural en una región específica.' },
+            { text: 'Especie invasora', correct: false, explanation: 'Las especies invasoras dañan ecosistemas al expandirse fuera de su lugar original.' }
         ]
     },
-{
+    {
         // ---------- PREGUNTA 4 ----------
-        tema: "Célula y Moléculas", // Nota: Modificar si prefieres un tema como "Ecología"
+        tema: "Célula y Moléculas",
         hint: 'Son aquellos beneficios invisibles pero vitales que los ecosistemas sanos realizan al modular y equilibrar las condiciones ambientales necesarias para la vida.',
         question: "¿A qué categoría de los 'Servicios Ecosistémicos' corresponden la polinización de los cultivos por las abejas y la purificación del aire por los árboles de los bosques?",
         media: {
@@ -1744,31 +1303,15 @@ Finalmente, los descomponedores reciclan nutrientes y permiten reiniciar el cicl
             url: 'Img/ab.jpg'
         },
         answers: [
-            { 
-                text: 'Servicios de soporte cultural y recreativo', 
-                correct: false, 
-                explanation: 'Involucra beneficios estéticos, espirituales o actividades de ecoturismo en la naturaleza.' 
-            },
-            { 
-                text: 'Servicios de regulación', 
-                correct: true, 
-                explanation: 'La biodiversidad regula el clima, previene la erosión del suelo, controla las plagas de forma natural y limpia los fluidos como el agua y el aire.' 
-            },
-            { 
-                text: 'Servicios de extracción de combustibles fósiles', 
-                correct: false, 
-                explanation: 'Esto es una actividad de minería energética destructiva, no un beneficio ecológico regulador de un ecosistema vivo.' 
-            },
-            { 
-                text: 'Servicios de abastecimiento mineral directo', 
-                correct: false, 
-                explanation: 'El abastecimiento biótico provee madera o alimentos, pero los minerales (como el hierro o el cobre) pertenecen a la geología, no a la biodiversidad viva.' 
-            }
+            { text: 'Servicios de soporte cultural and recreativo', correct: false, explanation: 'Involucra beneficios estéticos, espirituales o actividades de ecoturismo en la naturaleza.' },
+            { text: 'Servicios de regulación', correct: true, explanation: 'La biodiversidad regula el clima, previene la erosión del suelo, controla las plagas de forma natural y limpia los fluidos como el agua y el aire.' },
+            { text: 'Servicios de extracción de combustibles fósiles', correct: false, explanation: 'Esto es una actividad de minería energética destructiva, no un beneficio ecológico regulador de un ecosistema vivo.' },
+            { text: 'Servicios de abastecimiento mineral directo', correct: false, explanation: 'El abastecimiento biótico provee madera o alimentos, pero los minerales (como el hierro o el cobre) pertenecen a la geología, no a la biodiversidad viva.' }
         ]
     },
     {
         // ---------- PREGUNTA 5 ----------
-        tema: "Célula y Moléculas", // Nota: Modificar si prefieres un tema como "Ecología y Biodiversidad"
+        tema: "Célula y Moléculas",
         hint: 'Hay alrededor de 17 países en esta categoría (incluyendo a México, Colombia, Brasil, Australia y Madagascar) que juntos albergan más del 70% de las especies del mundo.',
         question: "¿Cómo se le denomina a un país que, debido a su ubicación geográfica y su historia evolutiva, concentra un porcentaje excepcionalmente alto de la biodiversidad total del planeta Tierra?",
         media: {
@@ -1776,50 +1319,31 @@ Finalmente, los descomponedores reciclan nutrientes y permiten reiniciar el cicl
             url: 'Img/pl.jpg'
         },
         answers: [
-            { 
-                text: 'País macroeconómico', 
-                correct: false, 
-                explanation: 'Es un término estrictamente financiero y comercial que mide el producto interno bruto (PIB), no su riqueza ecológica.' 
-            },
-            { 
-                text: 'País cosmopolita industrial', 
-                correct: false, 
-                explanation: 'Define naciones altamente urbanizadas y tecnológicas, las cuales suelen tener hábitats naturales fragmentados.' 
-            },
-            { 
-                text: 'País megadiverso', 
-                correct: true, 
-                explanation: 'Es el estatus oficial asignado a naciones con condiciones topográficas y climáticas privilegiadas que estimulan una riqueza biológica desbordante.' 
-            },
-            { 
-                text: 'País monocultural', 
-                correct: false, 
-                explanation: 'Hace referencia a territorios que siembran un solo tipo de cultivo vegetal a gran escala, destruyendo la biodiversidad natural.' 
-            }
+            { text: 'País macroeconómico', correct: false, explanation: 'Es un término estrictamente financiero y comercial que mide el producto interno bruto (PIB), no su riqueza ecológica.' },
+            { text: 'País cosmopolita industrial', correct: false, explanation: 'Define naciones altamente urbanizadas y tecnológicas, las cuales suelen tener hábitats naturales fragmentados.' },
+            { text: 'País megadiverso', correct: true, explanation: 'Es el estatus oficial asignado a naciones con condiciones topográficas y climáticas privilegiadas que estimulan una riqueza biológica desbordante.' },
+            { text: 'País monocultural', correct: false, explanation: 'Hace referencia a territorios que siembran un solo tipo de cultivo vegetal a gran escala, destruyendo la biodiversidad natural.' }
         ]
-    },
+    }
 ]
-};
+}; // ¡AQUÍ SE CIERRA CORRECTAMENTE EL OBJETO DATABASE!
+
+// ==========================================
+// 🕹️ FUNCIONES DE CONTROL DEL JUEGO
+// ==========================================
 
 // INICIAR MÓDULO
 function startModule(moduleName) {
-
     currentQuestions = database[moduleName];
-
     currentQuestionIndex = 0;
 
-    document.getElementById('home-screen')
-        .classList.add('hidden');
-
-    document.getElementById('quiz-screen')
-        .classList.remove('hidden');
+    document.getElementById('home-screen').classList.add('hidden');
+    document.getElementById('quiz-screen').classList.remove('hidden');
 
     showQuestion();
 }
 
-
-
-// MOSTRAR PREGUNTA (Versión Corregida)
+// MOSTRAR PREGUNTA
 function showQuestion() {
     const infoContainer = document.getElementById('info-container');
     infoContainer.innerHTML = '';
@@ -1854,7 +1378,7 @@ function showQuestion() {
         `;
     }
 
-    // MULTIMEDIA —— ✅ Corregido para que no rompa si la pregunta no tiene fotos/videos
+    // MULTIMEDIA
     if (question.media && question.media.type) {
         if (question.media.type === 'image') {
             const img = document.createElement('img');
@@ -1874,8 +1398,6 @@ function showQuestion() {
     question.answers.forEach(answer => {
         const button = document.createElement('button');
         button.innerText = answer.text;
-        
-        // Añadimos una clase general para que tus botones de respuesta tengan estilo CSS
         button.classList.add('btn-answer'); 
 
         button.addEventListener('click', () =>
@@ -1890,9 +1412,7 @@ function showQuestion() {
 
 // RESPUESTA
 function selectAnswer(answer, button) {
-
-    const buttons =
-    answerButtonsElement.children;
+    const buttons = answerButtonsElement.children;
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].disabled = true;
@@ -1901,7 +1421,6 @@ function selectAnswer(answer, button) {
     let feedbackHtml = '';
 
     if (answer.correct) {
-
         button.classList.add('correct');
 
         if (answer.explanation) {
@@ -1912,22 +1431,16 @@ function selectAnswer(answer, button) {
                 </div>
             `;
         }
-
     } else {
-
         button.classList.add('wrong');
 
-        currentQuestions[currentQuestionIndex]
-        .answers.forEach((ans, index) => {
-
+        currentQuestions[currentQuestionIndex].answers.forEach((ans, index) => {
             if (ans.correct) {
-                buttons[index]
-                .classList.add('correct');
+                buttons[index].classList.add('correct');
             }
         });
 
-        const correctAnswer = currentQuestions[currentQuestionIndex]
-            .answers.find(ans => ans.correct);
+        const correctAnswer = currentQuestions[currentQuestionIndex].answers.find(ans => ans.correct);
 
         const chosenExplanation = answer.explanation ? `
             <div class="feedback wrong-feedback">
@@ -1947,35 +1460,23 @@ function selectAnswer(answer, button) {
     }
 
     texto.innerHTML = feedbackHtml;
-
     nextButton.classList.remove('hidden');
 }
 
 // SIGUIENTE
 nextButton.addEventListener('click', () => {
-
     currentQuestionIndex++;
 
-    if (currentQuestionIndex <
-        currentQuestions.length) {
-
+    if (currentQuestionIndex < currentQuestions.length) {
         showQuestion();
-
     } else {
-
         alert("Terminaste este módulo");
-
         goHome();
     }
 });
 
 // VOLVER
 function goHome() {
-
-    document.getElementById('home-screen')
-        .classList.remove('hidden');
-
-    document.getElementById('quiz-screen')
-        .classList.add('hidden');
+    document.getElementById('home-screen').classList.remove('hidden');
+    document.getElementById('quiz-screen').classList.add('hidden');
 }
-//parte agregada
