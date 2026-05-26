@@ -1457,7 +1457,7 @@ La clasificación ayuda a comprender:
             explanation: 'Los eucariotas usan otros materiales como celulosa o quitina.'
         }
     ]
-}
+},
 {
         // ---------- PREGUNTA 6 ----------
         tema: "Célula y Moléculas",
