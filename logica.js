@@ -1817,24 +1817,20 @@ function startModule(moduleName) {
     showQuestion();
 }
 
-// MOSTRAR PREGUNTA
+
+
+// MOSTRAR PREGUNTA (Versión Corregida)
 function showQuestion() {
+    const infoContainer = document.getElementById('info-container');
+    infoContainer.innerHTML = '';
 
-    const infoContainer =
-document.getElementById('info-container');
-
-infoContainer.innerHTML = '';
-
-    const question =
-    currentQuestions[currentQuestionIndex];
+    const question = currentQuestions[currentQuestionIndex];
 
     // Tema
-    document.getElementById('tema-titulo')
-        .innerText = question.tema;
+    document.getElementById('tema-titulo').innerText = question.tema;
 
     // Pregunta
-    questionElement.innerText =
-    question.question;
+    questionElement.innerText = question.question;
 
     // Pista
     texto.innerHTML = question.hint ? `
@@ -1843,67 +1839,44 @@ infoContainer.innerHTML = '';
         </div>
     ` : '';
 
-    // Limpiar
+    // Limpiar contenedores
     mediaContainer.innerHTML = '';
     answerButtonsElement.innerHTML = '';
+
     // INFORMACIÓN
+    if (question.informacion) {
+        infoContainer.innerHTML = `
+            <div class="info-card">
+                <h2>${question.informacion.titulo}</h2>
+                <img src="${question.informacion.imagen}" class="info-image">
+                <p>${question.informacion.texto}</p>
+            </div>
+        `;
+    }
 
-if(question.informacion){
-
-    infoContainer.innerHTML = `
-
-        <div class="info-card">
-
-            <h2>
-                ${question.informacion.titulo}
-            </h2>
-
-            <img
-                src="${question.informacion.imagen}"
-                class="info-image"
-            >
-
-            <p>
-                ${question.informacion.texto}
-            </p>
-
-        </div>
-    `;
-}
-
-    // MULTIMEDIA
-    if (question.media.type === 'image') {
-
-        const img =
-        document.createElement('img');
-
-        img.src = question.media.url;
-
-        img.classList.add('media-content');
-
-        mediaContainer.appendChild(img);
-
-    } else if (question.media.type === 'video') {
-
-        const video =
-        document.createElement('video');
-
-        video.src = question.media.url;
-
-        video.controls = true;
-
-        video.classList.add('media-content');
-
-        mediaContainer.appendChild(video);
+    // MULTIMEDIA —— ✅ Corregido para que no rompa si la pregunta no tiene fotos/videos
+    if (question.media && question.media.type) {
+        if (question.media.type === 'image') {
+            const img = document.createElement('img');
+            img.src = question.media.url;
+            img.classList.add('media-content');
+            mediaContainer.appendChild(img);
+        } else if (question.media.type === 'video') {
+            const video = document.createElement('video');
+            video.src = question.media.url;
+            video.controls = true;
+            video.classList.add('media-content');
+            mediaContainer.appendChild(video);
+        }
     }
 
     // RESPUESTAS
     question.answers.forEach(answer => {
-
-        const button =
-        document.createElement('button');
-
+        const button = document.createElement('button');
         button.innerText = answer.text;
+        
+        // Añadimos una clase general para que tus botones de respuesta tengan estilo CSS
+        button.classList.add('btn-answer'); 
 
         button.addEventListener('click', () =>
             selectAnswer(answer, button)
@@ -2005,3 +1978,4 @@ function goHome() {
     document.getElementById('quiz-screen')
         .classList.add('hidden');
 }
+//parte agregada
